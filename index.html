@@ -18,6 +18,8 @@
 
 	<!-- Theme CSS -->
 	<link id="theme-style" rel="stylesheet" href="assets/css/devresume.css">
+
+	<script src="src/dates.js"></script>
 </head>
 
 <body>
@@ -57,7 +59,7 @@
 								<div class="item mb-3">
 									<div class="item-heading row align-items-center mb-2">
 										<h4 class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0">Automotive Software Engineer</h4>
-										<div class="item-meta col-12 col-md-6 col-lg-4 text-muted text-left text-md-right">GlobalLogic | Jun 2018 - Present |<br> 1 yr 4 mos</div>
+										<div class="item-meta col-12 col-md-6 col-lg-4 text-muted text-left text-md-right">GlobalLogic | Jun 2018 - Present<p id="years"></p></div>
 									</div>
 									<div class="item-content">
 										<ul class="resume-list">
@@ -71,7 +73,7 @@
 								<div class="item mb-3">
 									<div class="item-heading row align-items-center mb-2">
 										<h4 class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0">Embedded/Linux Kernel Sofware Engineer</h4>
-										<div class="item-meta col-12 col-md-6 col-lg-4 text-muted text-left text-md-right">GlobalLogic | Aug 2017 – May 2018 |<br> 10 mos</div>
+										<div class="item-meta col-12 col-md-6 col-lg-4 text-muted text-left text-md-right">GlobalLogic | Aug 2017 – May 2018<p> 10 mos</p></div>
 									</div>
 									<div class="item-content">
 										<ul class="resume-list">
@@ -85,7 +87,7 @@
 								<div class="item mb-3">
 									<div class="item-heading row align-items-center mb-2">
 										<h4 class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0">Embedded BaseCamp</h4>
-										<div class="item-meta col-12 col-md-6 col-lg-4 text-muted text-left text-md-right">GlobalLogic | May 2017 – Aug 2017 |<br> 4 mos</div>
+										<div class="item-meta col-12 col-md-6 col-lg-4 text-muted text-left text-md-right">GlobalLogic | May 2017 – Aug 2017<p> 4 mos</p></div>
 									</div>
 									<div class="item-content">
 										<ul class="resume-list">
@@ -167,6 +169,8 @@
 				<small class="copyright text-muted">Designed with <i class="fas fa-heart"></i> by <a class="theme-link" href="http://themes.3rdwavemedia.com" target="_blank">Xiaoying Riley</a> for developers</small>
 			</footer>
 	</div><!--//main-wrapper-->
+
+	<script>window.onload = get_duration();</script>
 
 </body>
 </html>
